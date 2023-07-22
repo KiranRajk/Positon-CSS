@@ -1,0 +1,72 @@
+*, * ::before, * ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C4D7B2;    
+}
+nav{
+    background-color: #A0C49D;
+    padding: 1rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+}
+nav ul{
+    list-style: none;
+    font-size: larger;
+}
+
+nav ul li{
+    font-size: larger;
+    font-weight: 540;
+}
+h2{
+    color: #025464;
+}
+strong{
+    font-size: 18px;
+}
+
+section > div{
+    padding: 6%;
+}
+
+section > div *{
+    display: inline-block;
+}
+.anime{
+    position: sticky;
+    width: 30%;
+    top:50px; 
+    text-align: center;
+    vertical-align: top;
+    padding-block: 6%;
+}
+.anime > div{
+    position: relative;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    left:0;
+    right: 0; 
+}
+
+.anime > div > img{
+    position: absolute;
+    top: 60px;
+    left:0;
+    right:0;
+    margin-inline: auto;
+}
+.summary{
+    width: 60%;
+}
+
+.summary >p{
+    padding-block-end: 2rem;
+    text-align: justify;
+}
